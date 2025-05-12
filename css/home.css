@@ -1,0 +1,54 @@
+/*
+Error: File to import not found or unreadable: /node_modules/bootstrap/scss/bootstrap.scss.
+       Load paths:
+         /Users/kaye/sites/metronic/node_modules
+         /Users/kaye/sites/metronic/scss
+        on line 3 of scss/home.scss
+
+1: // Home
+2: 
+3: @import '/node_modules/bootstrap/scss/bootstrap.scss';
+
+Backtrace:
+scss/home.scss:3
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:44:in `import'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:37:in `css_import?'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/engine.rb:384:in `_render_with_sourcemap'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/engine.rb:301:in `render_with_sourcemap'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/Users/kaye/.rvm/gems/ruby-3.0.0/gems/sass-3.4.25/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: /node_modules/bootstrap/scss/bootstrap.scss.\A        Load paths:\A          /Users/kaye/sites/metronic/node_modules\A          /Users/kaye/sites/metronic/scss\A         on line 3 of scss/home.scss\A \A 1: // Home\A 2: \A 3: @import '/node_modules/bootstrap/scss/bootstrap.scss';"; }

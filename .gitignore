@@ -1,4 +1,13 @@
+# Sass cache
 .sass-cache/
+
+# Sass source maps
 *.css.map
 *.sass.map
 *.scss.map
+
+# macOS system files
+.DS_Store
+
+# VS Code settings folder
+.vscode/
