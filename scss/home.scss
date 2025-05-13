@@ -1,3 +1,11 @@
 // Home
 
-@import '/node_modules/bootstrap/scss/bootstrap.scss';
+body {
+    background-color: pink;
+}
+
+// Instead of @import, use @use
+@use "bootstrap" with (
+  $primary: #007bff, // Override any default Bootstrap variables
+  $font-family-base: 'Arial'
+);
